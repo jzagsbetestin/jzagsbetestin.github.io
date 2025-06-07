@@ -2,7 +2,7 @@ body{
     background-color: #000;
 }
 
-.main {
+.main main{
     position: fixed;
     top: 50%;
     left: 50%;
@@ -25,4 +25,54 @@ body{
     100%{
         transform: scale(1.5);
     }
+}
+
+
+.tg td{
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;}
+.tg th{
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;}
+.tg .tg-jgo1{
+    vertical-align:top}
+
+img{
+max-width: 350px;
+max-height: 350px;
+border-radius: 0.5rem;
+}
+
+button{
+    justify-self: center;
+    justify-content: center;
+    background-color: aqua;
+    color: #000;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+button:hover
+button::after{
+    background-color: darkcyan;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+td{
+    text-align: center;
+}
+
+/*hooray & poopy*/
+.container{
+    align-items: center;
+    padding-left: 
+    20%;
+    padding-right: 20%;
 }

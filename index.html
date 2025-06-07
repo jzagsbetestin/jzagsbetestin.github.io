@@ -4,23 +4,17 @@
         <title>Life Choices</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="css/uikit.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
         <script src="js/uikit.min.js"></script>
         <script src="js/uikit-icons.min.js"></script>
     </head>
     <body>
+        <main>
         <div class="main">
-            <h1>What do you like best?</h1>
-        <style type="text/css">
-            .tg  {border-collapse:collapse;border-spacing:0;}
-            .tg td{border-color:#34cdf9;border-style:solid;border-width:1px;
-              overflow:hidden;padding:10px 5px;word-break:normal;}
-            .tg th{border-color:#34cdf9;border-style:solid;border-width:1px;
-              font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-            .tg .tg-jgo1{border-color:#34cdf9;text-align:left;vertical-align:top}
-            </style>
-            <table class="tg"><thead>
+            <h1 class="heading">What do you like best?</h1>
+            <div class="">
+            <table class="tg">
+                <thead>
               <tr>
                 <th class="tg-jgo1"><img src="/images/pups.jpeg">
                     <button type="button"><a href="/hooray.html">I love them pups!</a>
@@ -37,7 +31,7 @@
                 <button type="button"><a href="/poopy.html">Ewww.... No thanks</a>
                 </button></td>
               </tr>
-            </tbody></table>
+            </tbody></table></div>
         </div>
  
         <!-- only used the JS bit underneath to generate the  box-shadow CSS box-shadow input.  list that layered shadow in line, let light that shine. 
@@ -53,6 +47,6 @@
            result += `${randomNumber(-50, 50)}vw ${randomNumber(-50, 50)}vh ${randomNumber(0, 1)}px ${randomNumber(0, 1)}px #fff,`
        }
        console.log(result.substring(0, result.length - 1))-->
-        
+    </main>
     </body>
 </html>
